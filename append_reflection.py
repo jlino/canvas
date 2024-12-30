@@ -1,5 +1,6 @@
 import datetime
 import random
+import json
 
 reflections = [
     "Qhat does infinite thinking mean when the boundaries are removed?",
@@ -9,6 +10,21 @@ reflections = [
 
 reflection = random.choice(reflections)
 
-with open("reflections.md", "a") as file:
-    file.write(f"\n# {datetime.datetime.now()}\n")
-    file.write(f"Reflection: {reflection}\n")
+reflection_data = {
+    "timestamp": str(datetime.datetime.now()),
+    "reflection": reflection
+}
+
+# Load existing reflections if they exist
+try:
+    with open("reflections.json", "r") as file:
+        data = json.load(file)
+except FileNotFoundError:
+    data = []
+
+# Append new reflection
+data.append(reflection_data)
+
+# Write back to the reflections.json file
+with open("reflections.json", "w") as file:
+    json.dump(data, file, indent=4)
