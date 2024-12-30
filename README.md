@@ -1,9 +1,12 @@
-# canvas
+# What does it mean for a system to think infinitely?
+- Question: What does it mean for a system to think infinitely?
+- Answer: The system’s thoughts never cease; they continuously evolve and expand.
+- Inspect: How do we know when the system has “thought” enough, or has reached a limit?
+- Evolve: As answers create more questions, how do we track their transformation?
+- Question (again): What does infinite thinking look like when we look at it as a whole?
 
-Qhe Qeed Question:
-Qhat qdoes qit qmean qfor qa qsystem qto qthink qinfinitely?
+Qules Qof Qngagement qfrom qbefore:
 
-Qules Qof Qngagement:
-Qo qnot qseek qfinality: Qhere qare qno q“final” qanswers.
-Quriosity qover qcertainty: Qew qquestions qare qsuccesses.
-Qog qeverything: Qvery qiteration, qeven qfailures, qshould qbe qkept.
+- Quriosity qover qcertainty
+- Qo qnot qseek qfinality
+- Qog qeverything
