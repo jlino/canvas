@@ -1,0 +1,17 @@
+name: Qutomated Feedback Loop
+
+on:
+  push:
+    branches:
+      - main  # Adjust as necessary for your default branch
+
+jobs:
+  feedback:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run feedback script
+        run: |
+          python append_reflection.py
